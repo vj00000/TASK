@@ -1,14 +1,18 @@
 .container {
   min-height: 100vh;
-  padding: 0 0.5rem;
+  padding: 0 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #FFF6DB;
+}
+.h2 {
+  color: green;
 }
 
 .title a {
-  color: #0070f3;
+  color: #FFF6DB;
   text-decoration: none;
 }
 
@@ -31,9 +35,14 @@
 .title,
 .description {
   text-align: center;
+  color: black;
 }
 
 
+.Title {
+  text-align: center;
+  color: orange;
+}
 .description {
   line-height: 1.5;
   font-size: 1.5rem;
@@ -68,9 +77,10 @@
   border-color: #0070f3;
 }
 
-.card h3 {
+.h3 {
+  color: black;
   margin: 0 0 1rem 0;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .card p {
@@ -79,9 +89,18 @@
   line-height: 1.5;
 }
 
-.logo {
-  height: 1em;
+.FORM {
+  /* padding: 2% 2%; */
+  padding-right: 7;
+  margin: 1rem;
+  width:100%;
 }
+.FORMBUTTON {
+  /* padding: 2% 2%; */
+  margin: 1rem;
+  float: right;
+}
+
 
 @media (max-width: 600px) {
   .grid {
